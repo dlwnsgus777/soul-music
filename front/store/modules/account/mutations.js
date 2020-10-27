@@ -2,7 +2,7 @@ import * as stateVal from './state';
 
 export const SET_TEST = 'SET_TEST';
 
-const mutations = {
+export const mutations = {
 	[SET_TEST](state, payload) {
 		console.log('??');
 		state[stateVal.USER] = 'test';
@@ -15,4 +15,4 @@ const mutations = {
 	},
 };
 
-export default mutations;
+// export default mutations;

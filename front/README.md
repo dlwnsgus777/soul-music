@@ -18,3 +18,5 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+[nuxt vuex modules](https://github.com/14nrv/buefy-shop/blob/dev/store/index.js)
