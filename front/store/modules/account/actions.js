@@ -1,4 +1,2 @@
-const actions = {};
-
-export default actions;
+export default {};
 // export const actions = {};

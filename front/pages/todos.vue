@@ -14,8 +14,9 @@
 </template>
 
 <script>
-// import { mapMutations, mapState } from 'vuex';
+import { createNamespacedHelpers } from 'vuex';
 import * as account from '../store/modules/account';
+import * as accountActions from '../store/modules/account/actions';
 import * as accountMutations from '../store/modules/account/mutations';
 import * as accountState from '../store/modules/account/state';
 
@@ -27,7 +28,7 @@ export default {
 	},
 	methods: {
 		...account.mapMutations({
-			setUser: accountMutations.SET_TEST,
+			setUser: accountMutations.SET_USER,
 		}),
 	},
 	mounted() {

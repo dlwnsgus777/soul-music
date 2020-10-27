@@ -1,5 +1,5 @@
 export const USER = 'USER';
 
-export const state = {
-	user: 'awdawdawdawd',
+export default {
+	[USER]: 'user',
 };

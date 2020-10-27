@@ -1,18 +1,10 @@
-import * as stateVal from './state';
+import * as val from '../account/state';
 
-export const SET_TEST = 'SET_TEST';
-
-export const mutations = {
-	[SET_TEST](state, payload) {
-		console.log('??');
-		state[stateVal.USER] = 'test';
-	},
-
-	setUser(state, payload) {
-		console.log('??');
+export const SET_USER = 'SET_USER';
+export default {
+	[SET_USER](state, payload) {
+		console.log(val);
 		console.log(state);
-		state[stateVal.USER] = 'asd';
+		state[val.USER] = 'test';
 	},
 };
-
-// export default mutations;

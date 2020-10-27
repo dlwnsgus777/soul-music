@@ -1,1 +1,3 @@
-export const getters = () => {};
+export default {
+	user: ({ user }) => user,
+};

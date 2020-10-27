@@ -25,10 +25,14 @@ const mutations = {};
 
 const actions = {};
 
-export const store = new Vuex.Store({
-	state,
-	getters,
-	mutations,
-	actions,
-	modules,
-});
+export const store = () => {
+	return new Vuex.Store({
+		state,
+		getters,
+		mutations,
+		actions,
+		modules,
+	});
+};
+
+export default store;
